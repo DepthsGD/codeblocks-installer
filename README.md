@@ -1,7 +1,7 @@
 # codeblocks-installer
-## A BASH-based installer for Code::Blocks, made using my SympleSys installer and nCurses.
+## A BASH-based installer for Code::Blocks, made using my SympleSys installer and Curses.
 
-This is a script for installing Code::Blocks via a terminal. I used `ncurses` to write the program, and it allows you to install a full version of Code::Blocks, along with all the bells and whistles, if you choose to add them.
+This is a script for installing Code::Blocks via a terminal. I used `curses` to write the program, and it allows you to install a full version of Code::Blocks, along with all the bells and whistles, if you choose to add them.
 
 ### Pre-Requisites
 You will need:

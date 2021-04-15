@@ -1,12 +1,12 @@
 #The wxFormBuilder BASH Installer
 #Note that this Installer version is for the latest version (3.9.0).
 #(C)1992-2020 wxWindows. All rights reserved.
-#installer (c)2020 Benjamin Grant.
+#installer (c)2020 DepthsDoes.
 clear
 sleep 3s
 echo "The wxFormBuilder Installer for version 3.9.0"
 sleep 1.9s
-echo "(C)1992-2020 wxWindows. Installer (C) 2020 Benjamin Grant."
+echo "(C)1992-2020 wxWindows. Installer (C) 2020 DepthsDoes."
 echo "WARNING: By installing wxFormBuilder, you run the risk of damaging your files. Note that WE ARE NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER DURING THE INSTALLATION PROCESS. THAT MEANS YOU ARE RESPONSIBLE FOR ANY DAMAGE DONE, OK?"
 #bring up yes/no input
 read -p "Do you wish to install this program? You will need to be connected to the Internet. (y/N)" yN

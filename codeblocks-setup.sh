@@ -61,6 +61,7 @@ read -r -a options <"$selection"
 
 dialog --backtitle "The Code::Blocks Setup Assistant \n (c) 2019-2021 DepthsDoes. \n Powered by SympleSys Installer for the nCurses engine" --title "Ready to Install" --msgbox "Press [OK] to install Code::Blocks on your computer. You will then be switched to Terminal Mode to install the packages. Press ESC to cancel."
 
+#Note: I used reinstall so if any of these packages are installed, they will not give error, rather they will reinstall without deleting user data. ;)
 for sel in "${options[@]}"; do
 	case "$sel" in
 		1)sudo apt reinstall codeblocks
